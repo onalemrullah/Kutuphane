@@ -1,0 +1,28 @@
+{
+  "kitaplar": [
+    {
+      "id": "1",
+      "kitapad": "Fatih Çelik",
+      "kitapsa": "Merhaba",
+      "yazar": "Emrullah Önal"
+    },
+    {
+      "kitapad": "Madam Bovary",
+      "kitapsa": "391",
+      "yazar": "Gustave Flaubert",
+      "id": "lW2lkho"
+    },
+    {
+      "kitapad": "Suç ve Ceza",
+      "kitapsa": "432",
+      "yazar": "Fyodor Dostoyevski",
+      "id": "dAp6y7Z"
+    },
+    {
+      "kitapad": "Savaş ve Barış",
+      "kitapsa": "1225",
+      "yazar": "Lev Tolstoy",
+      "id": "MJPTsww"
+    }
+  ]
+}

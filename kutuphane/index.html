@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        margin: 20px;
+        height: 25px;
+        width: 200px;
+        font-family: 'Kanit', sans-serif;
+        cursor: pointer;
+
+    }
+    p{
+        margin-bottom: 100px;
+        font-family: 'Nunito', sans-serif;
+      font-size: 35px;
+    }
+    label{
+        font-family: 'Open Sans', sans-serif;
+
+    }
+</style>
+<body>
+    <p>Kütüphane Veri Havuzu</p>
+     <form action="" id="form">
+
+           <label for="kitapadi">Kitap Adı</label>
+          <input id="kitapadi" type="text">
+         
+           <label for="kitapsayfasi">Kitap Sayfası</label>
+           <input id="kitapsayfasi" type="text">
+         
+           <label for="yazar"> yazar</label>
+           <input id="yazar" type="text">
+          
+           <input id="button" type="submit" value="ekle">
+     </form>
+     <script src="script.js"></script>
+</body>
+</html>
